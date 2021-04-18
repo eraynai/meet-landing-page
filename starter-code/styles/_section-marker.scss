@@ -1,0 +1,21 @@
+@use 'variables' as *;
+
+.section-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .text {
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    border: 1px solid $section-marker-border;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .line {
+    border-left: 1px solid $section-marker-border;
+    height: 8.4rem;
+  }
+}

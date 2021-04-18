@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+.section-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-marker .text {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+  border: 1px solid rgba(135, 135, 157, 0.26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-marker .line {
+  border-left: 1px solid rgba(135, 135, 157, 0.26);
+  height: 8.4rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+}
+
+h1 {
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4.4rem;
+}
+
+.overline {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+}
+
+/*# sourceMappingURL=output.css.map */
